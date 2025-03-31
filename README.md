@@ -44,8 +44,11 @@ This software is provided by the authors "as is" and any express or implied warr
 
 ## Citation
 If you find our method useful in your work or you use some materials provided in this repo, please cite the following publication where our method and materials were presented: 
+
 DOI: https://doi.org/10.1109/ICIP51287.2024.10648148
+
 Pre-print: http://arxiv.org/abs/2406.12662
+
 ````
 @inproceedings{tzelepi2024online,
     title={Online Anchor-based Training for Image Classification Tasks},
