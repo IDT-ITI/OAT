@@ -1,4 +1,8 @@
 # Online Anchor-based Training for Image Classification Tasks
+This repository provides the code and trained model from our paper: M. Tzelepi, V. Mezaris, "Online Anchor-based Training for Image Classification Tasks", Proc. 2024 IEEE Int. Conf. on Image Processing (ICIP 2024), Abu Dhabi, UAE, pp. 1099-1105, Oct. 2024. DOI:10.1109/ICIP51287.2024.10648148.
+
+In this work, we improve the performance of a deep learning model towards image classification tasks by proposing an anchor-based training methodology, named Online Anchor-based Training (OAT). The OAT method, guided by the insights provided in the anchor-based object detection methodologies, instead of learning directly the class labels, proposes to train a model to learn percentage changes of the class labels with respect to defined anchors. We define as anchors the batch centers at the output of the model. Then, during the test phase, the predictions are converted back to the original class label space, and the performance is evaluated. The effectiveness of the OAT method is validated on four datasets.
+
 ![OAT](OAT.png)
 
 
